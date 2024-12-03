@@ -1,0 +1,37 @@
+{
+    "title": "Magical Book Events",
+    "events": [
+        {
+            "date": "March 15, 2024",
+            "name": "Midnight Book Launch",
+            "description": "Join us for a magical midnight celebration as we unveil the most anticipated fantasy series of the year. Experience live readings, costume contests, and magical refreshments!",
+            "location": "Crystal Library Hall",
+            "time": "11:30 PM",
+            "buttonText": "Join the Magic"
+        },
+        {
+            "date": "March 20, 2024",
+            "name": "Author's Spellbound Session",
+            "description": "Meet bestselling fantasy author Elena Nightshade for an intimate discussion about worldbuilding, character creation, and the art of weaving magical narratives.",
+            "location": "Enchanted Garden",
+            "time": "5:00 PM",
+            "buttonText": "Reserve Your Spot"
+        },
+        {
+            "date": "April 1, 2024",
+            "name": "Books & Brews Festival",
+            "description": "A magical afternoon of storytelling, featuring local authors, themed beverages, and interactive story workshops. Bring your favorite book to trade!",
+            "location": "Mystic Café",
+            "time": "2:00 PM",
+            "buttonText": "Get Your Pass"
+        },
+        {
+            "date": "April 15, 2024",
+            "name": "Young Wizards Book Club",
+            "description": "Special monthly meetup for young readers (ages 8-12) featuring magical crafts, storytelling sessions, and character costume parade!",
+            "location": "Rainbow Reading Room",
+            "time": "3:30 PM",
+            "buttonText": "Join the Club"
+        }
+    ]
+}

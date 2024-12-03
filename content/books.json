@@ -1,0 +1,68 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "Fantasy Realm",
+            "description": "Where dragons soar and magic flows like water...",
+            "image": "img/Fantasy Realm.jpg",
+            "rating": 5,
+            "buttonText": "Open Portal"
+        },
+        {
+            "id": 2,
+            "title": "Mystery Manor",
+            "description": "Every shadow holds a secret waiting to be unveiled...",
+            "image": "img/Mystery Manor.jpg",
+            "rating": 4,
+            "buttonText": "Investigate"
+        },
+        {
+            "id": 3,
+            "title": "Epic Quests",
+            "description": "Embark on a journey beyond imagination...",
+            "image": "img/Epic Quests.jpg",
+            "rating": 5,
+            "buttonText": "Begin Journey"
+        },
+        {
+            "id": 4,
+            "title": "Heart's Whisper",
+            "description": "Love stories that transcend time and space...",
+            "image": "img/romance-book.jpg",
+            "rating": 4,
+            "buttonText": "Feel Love"
+        },
+        {
+            "id": 5,
+            "title": "Dark Shadows",
+            "description": "Face your deepest fears in these haunting tales...",
+            "image": "img/horror-book.jpg",
+            "rating": 5,
+            "buttonText": "Enter Darkness"
+        },
+        {
+            "id": 6,
+            "title": "Time Chronicles",
+            "description": "Journey through the ages of human history...",
+            "image": "img/historical-book.jpg",
+            "rating": 4,
+            "buttonText": "Time Travel"
+        },
+        {
+            "id": 7,
+            "title": "Life Stories",
+            "description": "Extraordinary tales of extraordinary people...",
+            "image": "img/biography-book.jpg",
+            "rating": 5,
+            "buttonText": "Discover Lives"
+        },
+        {
+            "id": 8,
+            "title": "Poetic Dreams",
+            "description": "Words that dance and hearts that sing...",
+            "image": "img/poetry-book.png",
+            "rating": 4,
+            "buttonText": "Feel Rhythm"
+        }
+    ]
+}

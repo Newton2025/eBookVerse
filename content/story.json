@@ -1,0 +1,27 @@
+
+{
+    "title": "Our Magical Journey",
+    "story": {
+        "paragraphs": [
+            "Once upon a time, in a world where books were losing their magic to screens, a group of passionate bookworms decided to create something extraordinary. BooksVerse was born from a simple dream: to reignite the enchanting relationship between readers and books.",
+            "We started in a tiny corner of the internet, armed with nothing but our love for stories and a sprinkling of digital stardust. Today, we've grown into a mystical realm where books come alive and readers discover new worlds with every click."
+        ]
+    },
+    "highlights": [
+        {
+            "number": "10,000+",
+            "title": "Magical Books",
+            "description": "Carefully curated stories waiting to be discovered"
+        },
+        {
+            "number": "50,000+",
+            "title": "Happy Readers",
+            "description": "Book lovers who found their perfect story match"
+        },
+        {
+            "number": "1,000+",
+            "title": "Reading Events",
+            "description": "Magical gatherings of bookworms worldwide"
+        }
+    ]
+}

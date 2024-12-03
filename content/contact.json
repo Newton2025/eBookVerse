@@ -1,0 +1,52 @@
+{
+    "title": "Contact Our Wizards",
+    "subtitle": "Have questions about magic? Need book recommendations? Our wizard librarians are here to help!",
+    "form": {
+        "fields": [
+            {
+                "label": "Your Name (as written in the Book of Readers)",
+                "type": "text",
+                "placeholder": "Enter your magical name..."
+            },
+            {
+                "label": "Your Magical Address (Email)",
+                "type": "email",
+                "placeholder": "your.magic@realm.com"
+            },
+            {
+                "label": "Type of Magic (Subject)",
+                "type": "select",
+                "placeholder": "Select your inquiry type...",
+                "options": [
+                    { "value": "recommendation", "text": "Book Recommendations" },
+                    { "value": "event", "text": "Event Information" },
+                    { "value": "partnership", "text": "Magical Partnerships" },
+                    { "value": "other", "text": "Other Spells" }
+                ]
+            },
+            {
+                "label": "Your Message (Spell)",
+                "type": "textarea",
+                "placeholder": "Cast your message here..."
+            }
+        ],
+        "submitButton": "✨ Send Your Spell ✨"
+    },
+    "contactMethods": [
+        {
+            "icon": "📚",
+            "title": "Visit Our Library",
+            "lines": ["123 Mystic Avenue", "Bookverse Realm"]
+        },
+        {
+            "icon": "🦉",
+            "title": "Owl Post",
+            "lines": ["Send us a magical letter", "Response within 24h"]
+        },
+        {
+            "icon": "🔮",
+            "title": "Crystal Ball",
+            "lines": ["For urgent matters", "+1 234 567 890"]
+        }
+    ]
+}

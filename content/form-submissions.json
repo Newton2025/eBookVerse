@@ -1,0 +1,11 @@
+{
+    "submissions": [
+        {
+            "name": "Example Reader",
+            "email": "example@magic.com",
+            "subject": "Book Recommendations",
+            "message": "Looking for magical mystery books!",
+            "timestamp": "2024-02-20T12:00:00.000Z"
+        }
+    ]
+}

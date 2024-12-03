@@ -1,0 +1,9 @@
+
+{
+    "welcome": {
+        "title": "Welcome To BooksVerse",
+        "description": "Find a story to fall in love with, or let the story find you. Let it spark your imagination, stir your emotions, and stay with you long after the final page. Sometimes, the right story finds you when you least expect it—just be ready to embrace the magic.",
+        "buttonText": "Explore...",
+        "buttonIcon": "img/bookverse_button.png"
+    }
+}
