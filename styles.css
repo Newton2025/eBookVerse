@@ -147,14 +147,7 @@ body {
     }
 }
 
-@media (max-width: 768px) {
-    .wizard-avatar {
-        width: 60px;
-        height: 60px;
-        bottom: 15px;
-        right: 15px;
-    }
-}
+
 
 /* Style the logo */
 .logo {
@@ -339,17 +332,6 @@ body {
     box-shadow: 0 0 15px #a78bfa;
 }
 
-@media (max-width: 768px) {
-    .books-container {
-        grid-template-columns: 1fr;
-        padding: 20px;
-    }
-    
-    .book-card {
-        margin: 0 20px;
-    }
-}
-
 
 /* THIRD SLIDE */
 .slide3-image {
@@ -434,16 +416,6 @@ body {
     color: #fed7aa;
     font-family: "Jaro", sans-serif;
     margin-bottom: 10px;
-}
-
-@media (max-width: 768px) {
-    .story-content {
-        grid-template-columns: 1fr;
-    }
-    
-    .story-title {
-        font-size: 3rem;
-    }
 }
 
 .slide4-image {
@@ -543,15 +515,6 @@ body {
     box-shadow: 0 0 20px rgba(254, 215, 170, 0.5);
 }
 
-@media (max-width: 768px) {
-    .events-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .event-title {
-        font-size: 3rem;
-    }
-}
 
 /* FIFTH SLIDE - Contact Wizards */
 .slide5-image {
@@ -734,16 +697,6 @@ body {
     50% { transform: translateY(-10px) rotate3d(1, 1, 1, 2deg); }
 }
 
-@media (max-width: 768px) {
-    .contact-methods {
-        flex-direction: column;
-        gap: 15px;
-    }
-    
-    .contact-title {
-        font-size: 3rem;
-    }
-}
 
 /* Success Message Styles */
 .success-message {
@@ -925,17 +878,6 @@ body {
     50% { transform: scale(1.2); opacity: 0.8; }
 }
 
-@media (max-width: 768px) {
-    .footer-content {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (max-width: 480px) {
-    .footer-content {
-        grid-template-columns: 1fr;
-    }
-}
 
 /* Skeleton Loading Styles */
 .skeleton {
@@ -986,7 +928,262 @@ body {
     display: none;
 }
 
-/* ...existing code... */
+/* ...CSS For Phone Screen... */
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 768px) {
+    .contact-methods {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .contact-title {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 768px) {
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .event-title {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 768px) {
+    .story-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .story-title {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 768px) {
+    .books-container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    
+    .book-card {
+        margin: 0 20px;
+    }
+}
+@media (max-width: 768px) {
+    .wizard-avatar {
+        width: 60px;
+        height: 60px;
+        bottom: 15px;
+        right: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    /* Navbar */
+    .nav-menu {
+        width: 100%;
+        left: -100%;
+        right: auto;
+        top: 0;
+        height: 100vh;
+        justify-content: center;
+    }
+
+    .nav-menu.active {
+        left: 0;
+        right: auto;
+    }
+
+    /* Logo */
+    .logo {
+        width: 150px;
+    }
+
+    /* Welcome Section */
+    .welcome {
+        padding: 40px 20px;
+    }
+
+    .welcome h1 {
+        font-size: 40px;
+    }
+
+    .welcome p {
+        font-size: 1.2rem;
+    }
+
+    .welcome ul {
+        padding: 40px 20px;
+        border-radius: 50px 3px;
+    }
+
+    .welcome button {
+        padding: 8px 40px;
+        font-size: 20px;
+    }
+
+    /* Books Section */
+    .Magical-Books {
+        font-size: 2rem;
+        padding: 20px;
+    }
+
+    /* Story Section */
+    .story-title {
+        font-size: 2.5rem;
+    }
+
+    .story-text {
+        padding: 20px;
+    }
+
+    .story-text p {
+        font-size: 1rem;
+    }
+
+    /* Events Section */
+    .event-title {
+        font-size: 2.5rem;
+    }
+
+    .event-card {
+        padding: 15px;
+    }
+
+    .event-name {
+        font-size: 1.5rem;
+    }
+
+    .event-description {
+        font-size: 1rem;
+    }
+
+    /* Contact Section */
+    .contact-title {
+        font-size: 2.5rem;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+    .magical-input {
+        padding: 12px;
+    }
+
+    .send-spell {
+        padding: 12px;
+        font-size: 1.1rem;
+    }
+
+    /* Footer */
+    .magical-footer {
+        padding: 40px 0 20px;
+    }
+
+    .footer-section h4 {
+        font-size: 1.2rem;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .newsletter-btn {
+        width: 100%;
+    }
+
+    /* Grid Layouts */
+    .books-container,
+    .story-content,
+    .events-grid,
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    /* Contact Methods */
+    .contact-methods {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Margins and Paddings */
+    .story-container,
+    .event-container,
+    .contact-container {
+        padding: 20px;
+    }
+
+    /* Font Sizes */
+    .book-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .magic-rating {
+        font-size: 1rem;
+    }
+
+    .highlight-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .magic-number {
+        font-size: 2rem;
+    }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+    .welcome h1 {
+        font-size: 32px;
+    }
+
+    .contact-title {
+        font-size: 2rem;
+    }
+
+    .event-card {
+        margin: 10px;
+    }
+
+    .event-details {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .book-cover img {
+        height: 200px;
+    }
+
+    .wizard-avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .hamburger {
+        padding: 10px;
+    }
+
+    .bar {
+        width: 20px;
+    }
+}
 
 
 
