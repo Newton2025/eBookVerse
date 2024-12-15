@@ -22,7 +22,10 @@ Build a website where:
 - 👩‍🎓 Students can RSVP for events and get reminders.
 - 🏆 A leaderboard tracks event participation for fun competitions among students.
 
-### 🚀 How to Use
+### Try it
+https://ebooksverse.netlify.app/
+
+### 🚀 Use it Locally
 
 1. **Clone the Repository**
    ```bash
