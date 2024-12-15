@@ -1,4 +1,4 @@
-# BooksVerse
+## BooksVerse
 🌟 Bookiverse Website: A fully responsive, magical bookstore site featuring a hamburger menu, skeleton loaders, curated books, magical events, and a fun "Contact Our Wizards" section. Built with HTML, CSS, JavaScript, and Appwrite for seamless functionality and scalability. ✨
 ![EzyCapture20241211175628_5703639855606913629](https://github.com/user-attachments/assets/30b43897-ebcf-4ad4-acdc-65326c5187b2)
 ![EzyCapture20241211175628_4412380686161082701](https://github.com/user-attachments/assets/9c7026fd-6834-4e54-b3dd-74fa18604bf0)
