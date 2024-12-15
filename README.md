@@ -1,6 +1,4 @@
 ## 📚 BooksVerse
-
-### 🌟 Bookiverse Website
 A fully responsive, magical bookstore site featuring:
 - 📖 A hamburger menu
 - 💀 Skeleton loaders
@@ -23,3 +21,37 @@ Build a website where:
 - 🏫 Clubs can create and manage events.
 - 👩‍🎓 Students can RSVP for events and get reminders.
 - 🏆 A leaderboard tracks event participation for fun competitions among students.
+
+### 🚀 How to Use
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Newton2025/eBookVerse.git
+   cd eBookVerse
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the Development Server**
+   ```bash
+   npm start
+   ```
+
+4. **Open the Application**
+   Open your browser and navigate to `http://localhost:3000` to see the website in action.
+
+5. **Build for Production**
+   ```bash
+   npm run build
+   ```
+
+6. **Deploy the Application**
+   Deploy the contents of the `build` directory to your preferred hosting service.
+
+7. **Event Manager Usage**
+   - **For Clubs**: Create and manage events through the admin panel.
+   - **For Students**: RSVP for events and receive reminders.
+   - **Leaderboard**: Track participation and compete with friends!
