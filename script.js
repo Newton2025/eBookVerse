@@ -365,8 +365,7 @@ function showSuccessMessage(form) {
             <p>Our wizards will respond to your spell soon.</p>
         </div>
     `;
-    
-    // Insert after the form
+
     form.parentNode.insertBefore(successMessage, form.nextSibling);
     
     // Remove the message after 5 seconds
