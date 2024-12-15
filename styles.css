@@ -7,7 +7,7 @@
 body {
     color: #f8fafc;
     font-size: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', latin , sans-serif;
     background: #0f172a;
     scroll-behavior: smooth;
     overflow-x: hidden;
