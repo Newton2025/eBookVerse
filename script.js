@@ -352,7 +352,7 @@ async function handleFormSubmission(e) {
     } catch (error) {
         console.error('Error submitting form:', error);
     }
-}
+ }
 
 function showSuccessMessage(form) {
     // Create success message element
