@@ -373,4 +373,5 @@ function showSuccessMessage(form) {
         successMessage.style.opacity = '0';
         setTimeout(() => successMessage.remove(), 500);
     }, 5000);
-}
+ }
+
